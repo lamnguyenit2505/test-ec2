@@ -1,0 +1,2 @@
+# test-ec2
+TEST AUTO DEPLOY EC2
