@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouse Entropy Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mouse Entropy Generator</h1>
+    <div class="progress">
+      <div class="bar" id="progress-bar"></div>
+    </div>
+    <p id="entropy-value">Entropy Value: N/A</p>
+    <div class="digest-display"> <!-- Add the digest-display class here -->
+      <p id="digest">SHA256 Digest: N/A</p>
+    </div>
+  </div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

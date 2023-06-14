@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  user-select: none; /* Disables text highlighting */
+}
+
+.progress {
+  width: 100%;
+  background-color: #f3f3f3;
+  position: relative;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.bar {
+  background-color: #4caf50;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.digest-display {
+  width: 100%;
+  max-width: 700px; /* Set a fixed width */
+  white-space: nowrap; /* Prevents line wrapping */
+  overflow: hidden; /* Hides any overflowing text */
+  text-overflow: ellipsis; /* Adds an ellipsis when text overflows */
+}
+
+.hidden {
+  display: none;
+}
+
+
